@@ -2,30 +2,6 @@ loadstring (game: HttpGet ("https://raw.githubusercontent.com/zqmbi/zqmb-V3/main
 
 loadstring (اللعبة: HttpGet ('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/')) ()
 
-defaultsettings = {
-
-	prefix = ';';	StayOpen = false;
-
-	keepIY = true;
-
-	logsEnabled = false;
-
-	jLogsEnabled = false;
-
-	aliases = {};
-
-	binds = {};
-
-	WayPoints = {};
-
-	PluginsTable = {};
-
-}
-
-defaults = game:GetService("HttpService"):JSONEncode(defaultsettings)
-
-writefile("IY_FE.iy",defaults)
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
 loadstring (game: HttpGet ("https://raw.githubusercontent.com/nn0kia/RagdollEngine/main/Arabic.lua")) ()
