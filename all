@@ -1,5 +1,9 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nn0kia/RagdollEngine/main/Arabic.lua"))()
-loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zqmbi/zqmb-V3/main/Fly3))()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zqmbi/zqmb-V3/main/Fly3"))()
